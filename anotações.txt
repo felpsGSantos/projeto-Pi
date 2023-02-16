@@ -1,0 +1,1 @@
+vou tentar usar os arquivos bkp's para tentar mudar o elemento central com o Js. com base nos arquivos exemplo's
