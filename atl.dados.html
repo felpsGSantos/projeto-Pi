@@ -5,31 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="alt.dados.css">
+    <link rel="stylesheet" href="atl.dados.css">
 </head>
 <body>
 
     
-
     <div class="conteudo">
 
         <div class="logo">
             <img src="images/Sem fundo PNG.png" alt="MobiliTec">
         </div>
 
+        <div id="caixa_pin">
+            <div class="texto_pin">
+               <p> Um Pin será direcionado ao seu e-mail</p>
+               <input type="button" value="fechar" onclick="fecharElemento()" class="fechar_elemento">
+            </div>
+        </div>
+
        
 
         
         
-        <form action="recul">
+        <form action="">
+
+            
 
             <div class="bloco">
                 <h4>Para recuperar a senha insira o seu E-mail ou seu CPF.</h4>
 
+                
+                
                 <label for="e-mail">
 
                     <input class="inserir" type="text" id="e-mail"
-                        minlength="20" maxlength="256" placeholder="Ex: felipe.014@gmail.com">
+                        minlength="20" maxlength="256" placeholder="Ex: felipe.014@gmail.com" pattern="felipe.014@gmail.com">
                 
                 </label>
 
@@ -47,18 +57,34 @@
 
                 
             </div>
-            <div class="recul">
-                <input type="hidden" name="validar" value="enviar">
-                <button type="submit" name="recul" class="recul_pin">Pin</button>
+            <div>
+                
+                <div class="recul" >
+                
+                    <input type="hidden" name="validar" value="enviar">
+                    <input type="button" value="Pin" onclick="aparenteElemento()" class="recul_pin" >
+                    
+                    
+                </div>
+    
+                
+                
+                
+                
                 
             </div>
 
         </form>
 
+       
+
+
     </div>
 
-
-
     
+
+
+    <script src="atl.dados.js"></script>
 </body>
+
 </html>

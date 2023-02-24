@@ -11,7 +11,7 @@ body{
     padding: 12px;
     margin-top: 120px;
     background-color: #3a6ea5;
-    width: 513px;
+    
     border-radius: 10px;
     opacity: 90%;
     height: 429px;
@@ -37,7 +37,6 @@ body{
     border-radius: 10px;
     border: none;
     
-    
    
     
 }
@@ -51,7 +50,6 @@ body{
 
 .bloco  {
     color: white;
-    
     
     
     
@@ -80,16 +78,16 @@ body{
 
 #caixa_pin {
     border-radius: 10px;
-    width: 370px;
-    height: 128px;
-    margin-top: 50px;
+    width: 300px;
+    height: 107px;
+    margin-top: 25px;
     opacity: 60%;
-    margin-left: 80px;
+    margin-left: 110px;
     background-color: white;
     
     margin-bottom: 20px;
-    font-size: 30px;
-    text-align: center;
+    
+    
     
     display: flex;
     position: relative;
@@ -101,16 +99,14 @@ body{
 
 .texto_pin {
    
- 
- 
- 
+    padding: 12px;
+    margin-left: 3px;
     
 }
 
 
 form {
     margin-top: 39px;
-   display: none;
 }
 
 .fechar_elemento {
