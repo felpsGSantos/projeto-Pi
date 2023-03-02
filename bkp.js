@@ -13,13 +13,13 @@ function aparenteElemento() {
 */
 
 function aparenteElemento() {
-
+    /*document.querySelector("form").style = "display:none"*/
     document.querySelector("#caixa_pin").style = "display:block"
-    document.querySelector(".conteudo").style = "height: 559px;"
+    document.querySelector(".conteudo").style = "height: 602px;"
 }
 
 function fecharElemento() {
-
+    /*document.querySelector("form").style = "display:block"*/
     document.querySelector("#caixa_pin").style = "display:none"
     document.querySelector(".conteudo").style = "height: 429px;"
 
