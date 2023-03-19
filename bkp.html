@@ -32,26 +32,31 @@
             
 
             <div class="bloco">
-                <h4>Para recuperar a senha insira o seu E-mail ou seu CPF caso tenha sido vinculado a sua conta</h4>
+                <h4>Para recuperar a senha insira o seu E-mail ou seu Número de telefone.</h4>
 
                 
-                
-                <label for="e-mail">
-
-                    <input class="inserir" type="text" id="e-mail"
-                        minlength="9" maxlength="256" placeholder="Ex: felipe.014@gmail.com" >
+              
+                <label for="email">
+                    
+                    <input class="inserir" name="email" type="text"
+                         maxlength="256" size="256" placeholder="E-mail:" >
+                    
+                         
                        
                 
                 </label>
 
+               
+
                 
             </div>
-
+                <div id="alertando"></div>
+            
             <div class="bloco">
                                                                                         
-                <label for="cpf">
+                <label for="Telefone">
 
-                    <input class="inserir" type="text" id="cpf" placeholder="Insira seu CPF(somente número)" pattern="[0-9]{11}">
+                    <input class="inserir" type="text" id="Telefone" placeholder="Telefone:"onblur="formatarTelefone()">
                    
                 
                 </label>
@@ -67,6 +72,7 @@
                     
                     
                     
+                    
                 </div>
     
                 
@@ -79,9 +85,11 @@
         </form>
 
        
-
+       
 
     </div>
+
+    
 
     
 
